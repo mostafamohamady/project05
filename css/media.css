@@ -1,0 +1,54 @@
+/* xs */
+@media(max-width:767px){
+    .navbar-inverse .navbar-nav>li>a{
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+     .navbar-fixed-top .navbar-collapse{
+        max-height: none;
+    }
+    .testimon__carousel-indicators li{
+        width: 40px;
+        height: 40px;
+        margin: 0px;
+    }
+    .testimon__carousel-indicators .active{
+        width: 40px;
+        height: 40px;
+        margin: 0px;
+
+    }
+    .our-team__box img{
+        width:150px;
+
+    }
+    .contact-us__btn{
+        width: 150px ;
+    }
+    
+}
+/* sm */
+@media (min-width:768px){
+    .contact-us__btn{
+        width: 300px ;
+    }
+
+}
+
+/* md */
+@media(min-width:992px){
+   
+    .contact-us__btn{
+        width: 400px ;
+    }
+
+}
+
+
+/* lg */
+@media(min-width:1200px){
+
+
+
+}
